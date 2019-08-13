@@ -1,0 +1,2 @@
+C:\Visual Studio Solutions\PRO250\BallgameLib\BallgameLib.csproj;neutral
+C:\Visual Studio Solutions\PRO250\BallgameUWP\BallgameUWP.csproj;x64

@@ -27,6 +27,7 @@ namespace Ballgame
         public string Away_team_runs { get; set; }
         [XmlAttribute(AttributeName = "home_team_runs")]
         public string Home_team_runs { get; set; }
+
         [XmlAttribute(AttributeName = "away_team_hits")]
         public string Away_team_hits { get; set; }
         [XmlAttribute(AttributeName = "home_team_hits")]

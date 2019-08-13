@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="BallgameUWP.GameViewCurrent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BallgameUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:usercontrols="using:BallgameUWP.UserControls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Name="TitleTeam1" HorizontalAlignment="Left" Text="Team1" FontSize="40" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBlock Name="TitleTeam2" HorizontalAlignment="Left" Text="Team2" FontSize="40" VerticalAlignment="Top" Margin="413,10,0,0"/>
+        <TextBlock Name="GameTime" HorizontalAlignment="Left" Text="Time" FontSize="20" VerticalAlignment="Top" Margin="39,69,0,0"/>
+        <Grid Background="Black" Name="ScoreContainer" HorizontalAlignment="Left" Height="150" Margin="10,116,0,0" VerticalAlignment="Top" Width="651"/>
+        <Grid Background="Black" Name="FieldContainer" HorizontalAlignment="Left" Height="300" Margin="36,271,0,0" VerticalAlignment="Top" Width="600"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="952,11,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock Name="TextUpdated" HorizontalAlignment="Left" Margin="10,576,0,0" Text="Updated" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Page>

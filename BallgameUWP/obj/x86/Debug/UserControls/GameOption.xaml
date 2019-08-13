@@ -1,0 +1,25 @@
+﻿<UserControl
+    x:Class="BallgameUWP.UserControls.GameOption"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BallgameUWP.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="100" Width="250">
+    <Grid BorderBrush="Gray" BorderThickness="2" IsTapEnabled="True">
+        <TextBlock x:ConnectionId='2' Name="GameStatus" Text="Status" HorizontalAlignment="Left" Margin="14,14,0,0" VerticalAlignment="Top" Height="20" Width="67" RenderTransformOrigin="0.606,0.71"/>
+        <TextBlock Text="Runs" HorizontalAlignment="Left" Margin="82,12,0,0" VerticalAlignment="Top" Height="20" Width="51" />
+        <TextBlock Text="Hits" HorizontalAlignment="Left" Margin="136,12,0,0" VerticalAlignment="Top" Height="20" Width="39" />
+        <TextBlock Text="Errors" HorizontalAlignment="Right" Margin="0,12,9,0" VerticalAlignment="Top" Height="20" Width="55" />
+        <TextBlock x:ConnectionId='3' Name="T1Name" Text="Team 1" HorizontalAlignment="Left" Margin="12,36,0,0" VerticalAlignment="Top" Height="20" Width="62" />
+        <TextBlock x:ConnectionId='4' Name="T2Name" Text="Team 2" HorizontalAlignment="Left" Margin="12,61,0,0" VerticalAlignment="Top" Height="20" Width="72" />
+        <TextBlock x:ConnectionId='5' Name="T1Runs" Text="T1Run" HorizontalAlignment="Left" Margin="82,36,0,0" VerticalAlignment="Top" Height="20" Width="49" />
+        <TextBlock x:ConnectionId='6' Name="T1Hits" Text="T1Hit" HorizontalAlignment="Left" Margin="137,36,0,0" VerticalAlignment="Top" Height="20" Width="46" />
+        <TextBlock x:ConnectionId='7' Name="T1Errors" Text="T1Err" HorizontalAlignment="Right" Margin="0,36,4,0" VerticalAlignment="Top" Height="20" Width="59" />
+        <TextBlock x:ConnectionId='8' Name="T2Runs" Text="T2Run" HorizontalAlignment="Left" Margin="82,60,0,0" VerticalAlignment="Top" Height="20" Width="45" />
+        <TextBlock x:ConnectionId='9' Name="T2Hits" Text="T2Hit" HorizontalAlignment="Left" Margin="137,60,0,0" VerticalAlignment="Top" Height="20" Width="46" />
+        <TextBlock x:ConnectionId='10' Name="T2Errors" Text="T2Err" HorizontalAlignment="Right" Margin="0,60,4,0" VerticalAlignment="Top" Height="20" Width="59" />
+
+    </Grid>
+</UserControl>
+

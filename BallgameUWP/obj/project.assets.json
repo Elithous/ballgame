@@ -2226,6 +2226,19 @@
             "rid": "aot"
           }
         }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-arm": {
@@ -4526,6 +4539,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
         }
       }
     },
@@ -6864,6 +6890,19 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-arm64-aot": {
@@ -8799,6 +8838,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
         }
       }
     },
@@ -11109,6 +11161,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
         }
       }
     },
@@ -13456,6 +13521,19 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-x86": {
@@ -15765,6 +15843,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
         }
       }
     },
@@ -18111,6 +18202,19 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "BallgameLib/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8"
+        },
+        "compile": {
+          "bin/placeholder/BallgameLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BallgameLib.dll": {}
         }
       }
     }
@@ -25832,7 +25936,7 @@
       ]
     },
     "System.Reflection.Metadata/1.3.0": {
-      "sha512": "jMSCxA4LSyKBGRDm/WtfkO03FkcgRzHxwvQRib1bm2GZ8ifKM1MX1al6breGCEQK280mdl9uQS7JNPXRYk90jw==",
+      "sha512": "piuaOy0ZH1/nNHMdwFrHP27ToY7SVblMqc+u8oEVf434IcpMmWpuU9aXWhAleRYjnKmfB3VIvGswEwiwptueXg==",
       "type": "package",
       "path": "system.reflection.metadata/1.3.0",
       "files": [
@@ -27225,11 +27329,12 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.0.1": {
-      "sha512": "h4z6rrA/hxWf4655D18IIZ0eaLRa3tQC/j+e26W+VinIHY0l07iEXaAvO0YSYq3MvCjMYy8Zs5AdC1sxNQOB7Q==",
+      "sha512": "2mhEX//P+gqLjyvauIDsTL5R3WYgmrRVz28WFm798xtHSY6FL2FrO3ug3REgngWiYlzKb7B/r6IKlFzFASggJg==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -27965,10 +28070,16 @@
         "system.xml.xmlserializer.4.0.11.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "BallgameLib/1.0.0": {
+      "type": "project",
+      "path": "../BallgameLib/BallgameLib.csproj",
+      "msbuildProject": "../BallgameLib/BallgameLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
+      "BallgameLib >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8"
     ]
   },
@@ -28002,7 +28113,11 @@
       },
       "frameworks": {
         "uap10.0.15063": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Visual Studio Solutions\\PRO250\\BallgameLib\\BallgameLib.csproj": {
+              "projectPath": "C:\\Visual Studio Solutions\\PRO250\\BallgameLib\\BallgameLib.csproj"
+            }
+          }
         }
       }
     },

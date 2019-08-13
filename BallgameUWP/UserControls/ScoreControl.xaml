@@ -1,0 +1,69 @@
+﻿<UserControl
+    x:Class="BallgameUWP.UserControls.ScoreControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BallgameUWP.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="150"
+    d:DesignWidth="651">
+
+    <Grid Name="Root">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.3*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.ColumnSpan="13" BorderThickness="0 0 0 1" BorderBrush="White"/>
+        <Border Grid.Column="0" Grid.RowSpan="3" BorderThickness="0 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="1" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="2" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="3" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="4" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="5" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="6" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="7" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="8" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="9" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="10" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="11" Grid.RowSpan="3" BorderThickness="1 0 1 0" BorderBrush="White"/>
+        <Border Grid.Column="12" Grid.RowSpan="3" BorderThickness="1 0 0 0" BorderBrush="White"/>
+        <TextBlock Grid.Column="1" Text="1" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="2" Text="2" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="3" Text="3" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="4" Text="4" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="5" Text="5" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="6" Text="6" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="7" Text="7" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="8" Text="8" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="9" Text="9" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="10" Text="R" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="11" Text="H" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="12" Text="E" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Grid.Column="1" Text="1" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team1Name" Grid.Row="1" Text="TM1" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team2Name" Grid.Row="2" Text="TM2" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team1Runs" Grid.Row="1" Grid.Column="10" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team2Runs" Grid.Row="2" Grid.Column="10" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team1Hits" Grid.Row="1" Grid.Column="11" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team2Hits" Grid.Row="2" Grid.Column="11" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team1Errors" Grid.Row="1" Grid.Column="12" TextAlignment="Center" FontSize="25"/>
+        <TextBlock Name="Team2Errors" Grid.Row="2" Grid.Column="12" TextAlignment="Center" FontSize="25"/>
+    </Grid>
+</UserControl>

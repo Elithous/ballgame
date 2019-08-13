@@ -20,11 +20,14 @@ namespace BallgameUWP.UserControls
 {
     public sealed partial class GameOption : UserControl
     {
+        public Game Game { get; set; }
+
         public GameOption(Game g)
         {
             this.InitializeComponent();
 
             SetupScreen(g);
+            Game = g;
         }
 
         public void SetupScreen(Game g)
@@ -39,7 +42,7 @@ namespace BallgameUWP.UserControls
             T1Runs.Text = g.Away_team_runs ?? "";
             T1Errors.Text = g.Away_team_errors ?? "";
 
-            T2Name.Text = g.Home_name_abbrev ?? "";
+            T2Name.Text = g.Home_name_abbrev;
             T2Hits.Text = g.Home_team_hits ?? "";
             T2Runs.Text = g.Home_team_runs ?? "";
             T2Errors.Text = g.Home_team_errors ?? "";

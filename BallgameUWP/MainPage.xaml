@@ -5,10 +5,29 @@
     xmlns:local="using:BallgameUWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:usercontrols="using:BallgameUWP.UserControls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock Name="DayTitle" FontSize="20" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Game Day" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Margin="757,0,10,744" Text="Select a game" VerticalAlignment="Top" HorizontalAlignment="Right" Height="24"/>
+        <Grid Name="GameGrid" VerticalAlignment="Center" Height="394" HorizontalAlignment="Stretch" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Name="BtnPrev" Content="Prev" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Click="BtnPrev_Click" />
+        <Button Name="BtnNext" Content="Next" HorizontalAlignment="Left" Margin="70,0,0,10" VerticalAlignment="Bottom" Click="BtnNext_Click" />
 
     </Grid>
 </Page>

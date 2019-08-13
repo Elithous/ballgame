@@ -128,8 +128,9 @@ namespace Ballgame
             DisplayLinescore(l);
             string str= "";
 
-            foreach(string s in Boxify(gcg.Recaps.Mlb.Headline,WordWrap(gcg.Recaps.Mlb.Blurb, 60),1,120,120)){Console.WriteLine(s);} 
-
+            //if (gcg.Recaps != null && gcg.Recaps.Mlb != null)
+            foreach (string s in Boxify(gcg.Recaps.Mlb.Headline, WordWrap(gcg.Recaps.Mlb.Blurb, 60), 1, 120, 120)) { Console.WriteLine(s); }
+            //else Console.WriteLine("No recaps available");
             ConsoleLineFill("", consoleWidth);
             string[] info = {string.Format("{0} is now {1}-{2} and are {3} games back", l.Home_team_city, l.Home_win, l.Home_loss, l.Home_games_back),
                             string.Format("{0} is now {1}-{2} and are {3} games back", l.Away_team_city, l.Away_win, l.Away_loss, l.Away_games_back)};

@@ -1,0 +1,33 @@
+C:\Visual Studio Solutions\PRO250\New folder\BallgameLib\obj\Debug\BallgameLib.csprojAssemblyReference.cache
+C:\Visual Studio Solutions\PRO250\New folder\BallgameLib\obj\Debug\BallgameLib.csproj.CoreCompileInputs.cache
+C:\Visual Studio Solutions\PRO250\New folder\BallgameLib\obj\Debug\BallgameLib.dll
+C:\Visual Studio Solutions\PRO250\New folder\BallgameLib\obj\Debug\BallgameLib.pdb
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\Extras\nix\mplayerstream.sh
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\Fonts\CalvinS.flf
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\Extras\Windows\ConsoleAudioStreamPlayer.exe
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\Extras\Windows\NAudio.dll
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\Extras\Windows\NAudio.xml
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\BallgameLib.dll
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\BallgameLib.pdb
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\BallgameLib.pri
+C:\Visual Studio Solutions\PRO250\BallgameLib\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\BallgameLib.csproj.CoreCompileInputs.cache
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\BallgameLib.csproj.CopyComplete
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\BallgameLib.dll
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\BallgameLib.pdb
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\priconfig.xml
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\priconfig.xml.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\unfiltered.layout.resfiles
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\filtered.layout.resfiles
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\excluded.layout.resfiles
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\resources.resfiles
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\resources.resfiles.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\pri.resfiles
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\pri.resfiles.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\qualifiers.txt
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\qualifiers.txt.intermediate
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Visual Studio Solutions\PRO250\BallgameLib\obj\Debug\BallgameLib.csprojAssemblyReference.cache
